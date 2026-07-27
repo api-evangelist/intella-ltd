@@ -1,7 +1,25 @@
 aid: intella-ltd
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/intella-ltd.png
 name: Intella, LTD
-description: Intella, LTD is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Intella is an enterprise Arabic AI company founded in 2021, building proprietary Arabic speech
+  intelligence from the ground up for banks, telecoms, and governments across the MENA region.
+  Its product suite includes Ziila (an AI voice agent handling inbound/outbound conversations across
+  25+ Arabic dialects), intellaCX (call-center conversation analytics for sentiment and friction
+  detection), intellaMX (media translation and dialect-aware subtitling), and intellaVX (a dialectal
+  Arabic speech-to-text engine exposed through a REST API for high-throughput CCaaS, CRM, and
+  developer-tool integration). Backed by 500 Global.
 url: https://raw.githubusercontent.com/api-evangelist/intella-ltd/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- Speech Recognition
+- Speech to Text
+- Voice AI
+- Conversational AI
+- Call Center Analytics
+- Arabic NLP
+- MENA
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +48,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://intellaworld.com
+  url: https://intella.me
+- type: Blog
+  url: https://intella.me/our-blogs
+- type: PrivacyPolicy
+  url: https://intella.me/privacy-policy
+- type: Support
+  url: https://intella.me/contact-us
+- type: Login
+  url: https://intella.me/auth/login
+- type: DomainSecurity
+  url: security/intella-ltd-domain-security.yml
+- type: LLMsTxt
+  url: llms/intella-ltd-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
